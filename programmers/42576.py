@@ -1,3 +1,5 @@
+# https://blog.naver.com/jihae032/222451182944
+
 def solution(n, lost, reserve):
     set_lost = set(lost)-set(reserve)
     set_reserve = set(reserve) - set(lost)
